@@ -11,16 +11,16 @@ export class ObjectComponent implements OnInit {
 
   private _objects: Obj[] = [];
   public object: Obj = {
-    objectIdRetail: "string",
-    objectIdCompany: "string",
+    objectIdRetail: "",
+    objectIdCompany: "",
     retailer: {
       "retailerName": "",
       "planogramPdf": ""
     },
-    objectFormat: "string",
-    objectName: "string",
-    city: "string",
-    address: "string",
+    objectFormat: "",
+    objectName: "",
+    city: "",
+    address: "",
     kam: {
       firstName: "",
       lastName: "",
@@ -52,7 +52,7 @@ export class ObjectComponent implements OnInit {
       email: ""
     },
     requisitionDays: "",
-    merchandiserRevisionDays: "string",
+    merchandiserRevisionDays: "",
     objectInfo: {
       assortmentModule: "",
       gainings12Mrsd: 0,
